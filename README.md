@@ -18,7 +18,7 @@ pnpm dev
 The dev server defaults to `http://localhost:3000`. Because all runtime configuration is supplied through the URL, open the app with the required parameters, for example:
 
 ```
-http://localhost:3000/?apiKey=YOUR_MI_KEY&mapboxAccessToken=YOUR_MAPBOX_TOKEN&venue=YOUR_VENUE_ID&room=ROOM_LOCATION_ID
+http://localhost:3000/?apiKey=YOUR_MI_KEY&mapboxAccessToken=YOUR_MAPBOX_TOKEN&startZoomLevel=18.4&bearing=-20.5&pitch=1&venue=YOUR_VENUE_ID&floor=10&latitude=YOUR_LATITUDE&longitude=YOUR_LONGITUDE&room=ROOM_LOCATION_ID&interval=1000
 ```
 
 ## Runtime Configuration
