@@ -1,0 +1,15 @@
+.mapboxgl-canvas,
+.mapboxgl-interactive,
+.mapboxgl-canvas-container,
+.mapboxgl-marker {
+  pointer-events: none !important;
+  cursor: default !important;
+}
+.search,
+.view-mode-switch,
+.mi-my-position,
+.mapboxgl-ctrl-group,
+.bottom-sheets,
+.modal {
+  display: none !important;
+}
